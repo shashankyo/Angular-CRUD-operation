@@ -1,0 +1,159 @@
+/* *{
+    background-color: wheat;
+    padding: 0px;
+} */
+ /* #up{
+    color: white;
+    background-color: green;
+} */
+/* #down{
+    color: white;
+    background-color: red;
+} */
+
+/* .container-a{
+    align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid green;
+    position: relative;
+} */
+/* .container-b {
+    align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid green;
+    position: relative;
+    text-align: right;
+} */
+/* #top{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+} */
+/* input{
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+/* #btn{
+    width: 100px;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+} */
+
+/* .button-pos{
+    width:400px; margin-left:auto; margin-right:auto;
+}
+ul.myul{
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  text-align: center;
+} */
+
+/* .top-container{
+    text-align: center;
+    width: 500px;
+    position: relative;
+    display: list-item;
+} */
+/* *{
+    text-align: center;
+}
+
+#wrapper{
+    background:white;
+    overflow:auto;
+    position: relative;
+}
+
+#container-a{
+   float:left;
+   background:wheat;
+   align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid green
+}
+
+#container-b{
+    background:wheat;
+    float:right;
+    align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid green
+}​
+
+{} */
+/* *{
+    background-color: wheat;
+    padding: 0px;
+} */
+#up{
+    color: white;
+    background-color: green;
+}
+#down{
+    color: white;
+    background-color: red;
+}
+
+.container {
+    align-items: center;
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid green;
+    position: relative;
+}
+#top{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    /* width: 100px; */
+}
+input{
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn{
+    width: 100px;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.button-pos{
+    width:400px; margin-left:auto; margin-right:auto;
+}
+ul.myul{
+  display: inline-block;
+  text-align: left;
+  width: 800px;
+  /* text-align: center; */
+}
+
+/* .top-container{
+    text-align: center;
+    width: 500px;
+    position: relative;
+    display: list-item;
+} */
+*{
+    text-align: center;
+}

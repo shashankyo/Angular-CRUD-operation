@@ -1,0 +1,98 @@
+<!-- <div class="top-container">
+<ul class="myul">
+    <li class="list-group-item border border-danger" *ngFor="let element of data1" id="top">
+        <div class="button-pos">
+        <button class="btn btn-danger" (click)="onDelete(element)" id="down">Delete</button>
+        <button class="btn btn-success" (click)="onUpdate(element)" id="up">Update</button>
+        {{ element | json }}
+    </div>
+    </li>
+</ul>
+</div>
+<div id="wrapper">
+<div id="container-a">
+    <form  #dataCreate="ngForm" (ngSubmit)="onsubmitCreate(dataCreate)">
+        <div>
+            <label>Name</label>
+            <input type="text" class="form-control" name="namejson" [(ngModel)]="nametemplatecreate">
+        </div>
+        <div>
+            <label> Email</label>
+            <input type="text" class="form-control" name="emailjson" [(ngModel)]="emailtemplatecreate">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" class="form-control" name="phonejson" [(ngModel)]="phonetemplatecreate">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" id="btn">create</button>
+    </form>
+</div>
+<br>
+<div id="container-b">
+    <form  #dataModify="ngForm" (ngSubmit)="onModify(dataModify)">
+        <div>
+            <label>Name</label>
+            <input type="text" class="form-control" name="namejson" [(ngModel)]="nametemplateModify">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text" class="form-control" name="emailjson" [(ngModel)]="emailtemplateModify">
+        </div>
+        <div>
+            <label>Phone</label>
+            <input type="text" class="form-control" name="phonejson" [(ngModel)]="phonetemplateModify">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" id="btn">Modify</button>
+    </form>
+</div>
+</div> -->
+<div class="top-container">
+    <ul class="myul">
+        <li class="list-group-item border border-danger" *ngFor="let element of data1" id="top">
+            <div class="button-pos">
+            <button class="btn btn-danger" (click)="onDelete(element)" id="down">Delete</button>
+            <button class="btn btn-success" (click)="onUpdate(element)" id="up">Update</button>
+            {{ element | json }}
+        </div>
+        </li>
+    </ul>
+    </div>
+    <div class="container">
+        <form  #dataCreate="ngForm" (ngSubmit)="onsubmitCreate(dataCreate)">
+            <div>
+                <label>Name</label>
+                <input type="text" class="form-control" name="namejson" [(ngModel)]="nametemplatecreate">
+            </div>
+            <div>
+                <label> Email</label>
+                <input type="text" class="form-control" name="emailjson" [(ngModel)]="emailtemplatecreate">
+            </div>
+            <div>
+                <label>Phone</label>
+                <input type="text" class="form-control" name="phonejson" [(ngModel)]="phonetemplatecreate">
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id="btn">create</button>
+        </form>
+    </div>
+    <br>
+    <div class="container">
+        <form  #dataModify="ngForm" (ngSubmit)="onModify(dataModify)">
+            <div>
+                <label>Name</label>
+                <input type="text" class="form-control" name="namejson" [(ngModel)]="nametemplateModify">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" class="form-control" name="emailjson" [(ngModel)]="emailtemplateModify">
+            </div>
+            <div>
+                <label>Phone</label>
+                <input type="text" class="form-control" name="phonejson" [(ngModel)]="phonetemplateModify">
+            </div>
+            
+            <button type="submit" class="btn btn-primary" id="btn">Modify</button>
+        </form>
+    </div>
